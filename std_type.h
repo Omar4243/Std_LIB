@@ -204,7 +204,7 @@ typedef union
 /* !Comment  : Definition of the value of Null pointer                        */
 /* !Range    : 0..0                                                           */
 /******************************************************************************/
-#define LBTY_NULL               ((void*)0)
+#define STD_NULL               ((void*)0)
 
 
 #endif
