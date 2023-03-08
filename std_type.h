@@ -206,5 +206,21 @@ typedef union
 /******************************************************************************/
 #define STD_NULL               ((void*)0)
 
+/******************************************************************************/
+/* !Comment  : Definition for Error type values                               */
+/* !Range    : STD_OK..STD_IN_PROGRESS                                        */
+/******************************************************************************/
+typedef enum
+{
+  STD_OK = (u8)0,
+  STD_NOK,
+  STD_NULL_POINTER,
+  STD_INDEX_OUT_OF_RANGE,
+  STD_NO_MASTER_CHANNEL,
+  STD_READ_ERROR,
+  STD_WRITE_ERROR,
+  STD_UNDEFINED_ERROR,
+  STD_IN_PROGRESS        /* Error is not available, wait for availability */
+} std_errorStatus_t;
 
 #endif
