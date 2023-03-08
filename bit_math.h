@@ -1,12 +1,14 @@
-/**
- * @author Omar Megahed 
- * @email omar-megahed@elarabygroup.com
- * @create date 2022-05-23 22:53:58
- * @modify date 2022-05-23 22:53:58
- * @desc [MACROS]
- */
-#ifndef MACROS_H_
-#define MACROS_H_
+/*****************************************************************************
+ * @Author                : Omar MEGAHED<omar.megahed@valeo.com>             *
+ * @CreatedDate           : 2023-03-09 00:37:40                              *
+ * @LastEditors           : Omar MEGAHED<omar.megahed@valeo.com>             *
+ * @LastEditDate          : 2023-03-09 00:37:47                              *
+ * @FilePath              : bit_math.h                                       *
+ ****************************************************************************/
+
+
+#ifndef _BIT_MATH_H_
+#define _BIT_MATH_H_
 
 #define   SET_BIT(reg,bit)                   ((reg)|=(1u<<(bit)))
 #define   CLEAR_BIT(reg,bit)                 ((reg)&= ~(1u<<(bit)))

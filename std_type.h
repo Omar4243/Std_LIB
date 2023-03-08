@@ -1,12 +1,14 @@
-/**
- * @author Omar Megahed 
- * @email omar-megahed@elarabygroup.com
- * @create date 2022-05-23 22:53:58
- * @modify date 2022-05-23 22:53:58
- * @desc [standard types]
- */
-#ifndef STD_TYPES_
-#define STD_TYPES_
+/*****************************************************************************
+ * @Author                : Omar MEGAHED<omar.megahed@valeo.com>             *
+ * @CreatedDate           : 2023-03-09 00:37:28                              *
+ * @LastEditors           : Omar MEGAHED<omar.megahed@valeo.com>             *
+ * @LastEditDate          : 2023-03-09 00:40:16                              *
+ * @FilePath              : std_type.h                                       *
+ ****************************************************************************/
+
+
+#ifndef _STD_TYPES_
+#define _STD_TYPES_
 /******************************************************************************/
 /* !Comment  : functional type                                                */
 /* !Range    : DISABLE, ENABLE                                                */
