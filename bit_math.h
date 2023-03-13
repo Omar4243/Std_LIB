@@ -2,13 +2,13 @@
  * @Author                : Omar MEGAHED<omar.megahed@valeo.com>             *
  * @CreatedDate           : 2023-03-09 00:37:40                              *
  * @LastEditors           : Omar MEGAHED<omar.megahed@valeo.com>             *
- * @LastEditDate          : 2023-03-09 00:37:47                              *
+ * @LastEditDate          : 2023-03-12 20:42:32                              *
  * @FilePath              : bit_math.h                                       *
  ****************************************************************************/
 
 
-#ifndef _BIT_MATH_H_
-#define _BIT_MATH_H_
+#ifndef _BIT_MATH_
+#define _BIT_MATH_
 
 #define   SET_BIT(reg,bit)                   ((reg)|=(1u<<(bit)))
 #define   CLEAR_BIT(reg,bit)                 ((reg)&= ~(1u<<(bit)))
