@@ -1,9 +1,10 @@
 /*****************************************************************************
- * @Author                : Omar MEGAHED<omar.megahed@valeo.com>             *
+ * @Author                : Islam Tarek<islamtarek0550@gmail.com>            *
  * @CreatedDate           : 2023-03-09 00:37:28                              *
- * @LastEditors           : Omar MEGAHED<omar.megahed@valeo.com>             *
- * @LastEditDate          : 2023-03-09 00:40:16                              *
+ * @LastEditors           : Islam Tarek<islamtarek0550@gmail.com>            *
+ * @LastEditDate          : 2023-03-28 09:57:33                              *
  * @FilePath              : std_type.h                                       *
+ * @CopyRight             : Islam Tarek CopyRight                            *
  ****************************************************************************/
 
 
@@ -222,6 +223,7 @@ typedef enum
   STD_READ_ERROR,
   STD_WRITE_ERROR,
   STD_UNDEFINED_ERROR,
+  STD_NOT_VALID_VALUE,
   STD_IN_PROGRESS        /* Error is not available, wait for availability */
 } std_errorStatus_t;
 
