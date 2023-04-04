@@ -1,8 +1,8 @@
 /*****************************************************************************
  * @Author                : Omar MEGAHED<omar.megahed@valeo.com>             *
  * @CreatedDate           : 2023-03-09 00:37:28                              *
- * @LastEditors           : Omar MEGAHED<omar.megahed@valeo.com>             *
- * @LastEditDate          : 2023-03-09 00:40:16                              *
+ * @LastEditors           : Islam Tarek<islam.tarek@valeo.com>               *
+ * @LastEditDate          : 2023-04-04 16:21:08                              *
  * @FilePath              : std_type.h                                       *
  ****************************************************************************/
 
@@ -54,6 +54,12 @@ typedef unsigned short int u16;
 /* !Range    : 0..4294967295                                                  */
 /******************************************************************************/
 typedef unsigned long int u32;
+
+/******************************************************************************/
+/* !Comment  : Standard Unsigned Long long Word                               */
+/* !Range    : 0..18446744073709551615                                        */
+/******************************************************************************/
+typedef unsigned long long int u64;
 
 /******************************************************************************/
 /* !Comment  : Standard Signed Byte                                           */
@@ -222,6 +228,7 @@ typedef enum
   STD_READ_ERROR,
   STD_WRITE_ERROR,
   STD_UNDEFINED_ERROR,
+  STD_NOT_VALID_VALUE,
   STD_IN_PROGRESS        /* Error is not available, wait for availability */
 } std_errorStatus_t;
 
