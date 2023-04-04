@@ -1,10 +1,9 @@
 /*****************************************************************************
- * @Author                : Islam Tarek<islamtarek0550@gmail.com>            *
+ * @Author                : Islam Tarek<islam.tarek@valeo.com>               *
  * @CreatedDate           : 2023-03-09 00:37:28                              *
- * @LastEditors           : Islam Tarek<islamtarek0550@gmail.com>            *
- * @LastEditDate          : 2023-03-28 09:57:33                              *
+ * @LastEditors           : Islam Tarek<islam.tarek@valeo.com>               *
+ * @LastEditDate          : 2023-04-04 16:21:08                              *
  * @FilePath              : std_type.h                                       *
- * @CopyRight             : Islam Tarek CopyRight                            *
  ****************************************************************************/
 
 
@@ -55,6 +54,12 @@ typedef unsigned short int u16;
 /* !Range    : 0..4294967295                                                  */
 /******************************************************************************/
 typedef unsigned long int u32;
+
+/******************************************************************************/
+/* !Comment  : Standard Unsigned Long long Word                               */
+/* !Range    : 0..18446744073709551615                                        */
+/******************************************************************************/
+typedef unsigned long long int u64;
 
 /******************************************************************************/
 /* !Comment  : Standard Signed Byte                                           */
